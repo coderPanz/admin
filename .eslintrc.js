@@ -9,6 +9,7 @@ module.exports = {
     "plugin:prettier/recommended",
   ],
   parserOptions: {
+    requireConfigFile: false,
     parser: "@babel/eslint-parser",
   },
   rules: {
